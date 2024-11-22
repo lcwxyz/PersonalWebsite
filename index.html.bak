@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebsiteSederhana</title>
+	<style>
+	body {
+            font-family: Times New Roman, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #111;
+            color: white;
+        }
+	.glow-effect {
+            font-size: 2rem;
+            text-align: center;
+            color: #fff;
+            text-shadow: 
+                0 0 5px #fff,
+                0 0 10px #00f,
+                0 0 20px #00f,
+                0 0 40px #00f,
+                0 0 80px #00f;
+            animation: glow 2s infinite;
+        }
+		
+	.box-glow-border {
+			border: 1px solid #fffff;
+			box-shadow: 0 0 10px #6c63ff, 0 0 20px #6c63ff, 0 0 30px #6c63ff;
+			padding: 5px;
+			border-radius: 100px;
+		}
+		
+	.border-top-style{
+			border: 1px solid #ffffff;
+			box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+			padding: 5px;
+			border-radius: 30px;
+			}
+	</style>
+</head>
+<body bgcolor="#1b173d" >
+
+	<table>
+		<tr width="1010" height="220" align=center class="border-top-style">
+			<td>
+				<img src="headlight.jpg"></img>
+			</td>
+		</tr>
+		<br>
+		<tr bgcolor="#17202a" align=center height="50" >
+			<td>
+			
+				<a href="home.html" target="isi" class="glow-effect"> <font size="5"> <font color="black">Home</font color></font size> </a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="profile.html" target="isi" class="glow-effect"> <font size="5"> <font color="black">Profile</font color></font size> </a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="content.html" target="isi" class="glow-effect"> <font size="5"> <font color="black">Content</font color></font size> </a>	 
+				
+			</td>
+			
+		</tr>
+		<tr>
+			<td>
+				<iframe src="home.html" name="isi" width="1510" height="480" class="box-glow-border"></iframe>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+</html>

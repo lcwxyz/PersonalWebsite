@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Laren</title>
+</head>
+<body>
+	<tr width="1000" height="460">
+		<td>
+			<img src="konten.jpg"></img>
+		</td>
+	</tr>
+</body>
+</html>

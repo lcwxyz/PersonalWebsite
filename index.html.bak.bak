@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>WebsiteSederhana</title>
+</head>
+<body bgcolor="#1b173d">
+	<table>
+		<tr width="1000" height="200">
+			<td>
+				<img src="headlight.jpg"></img>
+			</td>
+		</tr>
+		<tr bgcolor="#464550" align="center" margin="5px" >
+			<td>
+				
+				<a href="home.html" target="isi"> <font size="5"> <font color="black"> Home </font color></font size> </a>
+				<a href="profile.html" target="isi"> <font size="5"> <font color="black">Profile</font color></font size> </a>
+				<a href="content.html" target="isi"> <font size="5"> <font color="black">Content</font color></font size> </a>	 
+				
+			</td>
+			
+		</tr>
+		<tr>
+			<td>
+				<iframe src="home.html" name="isi" width="1010" height="480"></iframe>
+				
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
